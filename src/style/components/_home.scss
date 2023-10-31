@@ -1,0 +1,97 @@
+.home {
+    
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        font-family: 'Merriweather', serif;
+        font-size: 1.2rem;
+        #my {
+            color: $color2;
+            padding-right: 7px;
+        }
+        #pizza {
+            color: $color4;
+        }
+        #fr {
+            color: $color3;
+        }
+    }
+    .intro {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        .left {
+            img {
+                transform: rotate(35deg) translate(-40px);
+            }
+        }
+        .right {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: center;
+            font-size: 1.1rem;
+            font-weight: bold;
+            span {
+                margin-bottom: 5px;
+            }
+            #one {
+                margin-right: 60px;
+            }
+            #two {
+                margin-right: 20px;
+            }
+            #three {
+                margin-right: 40px;
+            }
+        }
+    }
+    .fide-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .fide {
+            background: white;
+            padding: 20px 40px;
+            height: 160px;
+            width: 320px;
+            max-width: 320px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            #one {
+                font-weight: bold;
+            }
+            p {
+                color: $color2;
+                font-size: 1.1rem;
+                font-weight: bold;
+                text-align: center;
+                padding: 10px;
+            }
+            #two {
+                font-size: 0.9rem;
+            }
+        }
+    }
+    .card-btn-container {
+        margin-top: 10px;
+        .img1 {
+            display: flex;
+            justify-content: end;
+        }
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .img2 {
+            img {
+                transform: translate(-50px, -20px) rotate(30deg);
+            }
+        }
+    }
+}

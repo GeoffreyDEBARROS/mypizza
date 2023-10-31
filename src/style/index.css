@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Pridi&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f6f6e1;
+  width: 100vw;
+  font-family: "Pridi", serif;
+}
+body button {
+  width: 320px;
+  max-width: 320px;
+  height: 60px;
+  background: #009246;
+  border: none;
+  border-radius: 10px;
+  font-family: "Merriweather", serif;
+  font-size: 1.5rem;
+  color: #f6f6e1;
+  box-shadow: rgba(0, 0, 0, 0.728) 5px 5px 5px;
+  transition: 0.2s;
+}
+body button:hover {
+  cursor: pointer;
+  transform: scale(101%);
+  box-shadow: rgba(0, 0, 0, 0.728) 7px 7px 7px;
+}
+body button:active {
+  transform: scale(98%);
+  box-shadow: rgba(0, 0, 0, 0.728) 2px 2px 2px;
+}
+
+.home .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: "Merriweather", serif;
+  font-size: 1.2rem;
+}
+.home .title #my {
+  color: #009246;
+  padding-right: 7px;
+}
+.home .title #pizza {
+  color: rgba(23, 22, 22, 0.908);
+}
+.home .title #fr {
+  color: #ce2b37;
+}
+.home .intro {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.home .intro .left img {
+  transform: rotate(35deg) translate(-40px);
+}
+.home .intro .right {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.home .intro .right span {
+  margin-bottom: 5px;
+}
+.home .intro .right #one {
+  margin-right: 60px;
+}
+.home .intro .right #two {
+  margin-right: 20px;
+}
+.home .intro .right #three {
+  margin-right: 40px;
+}
+.home .fide-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home .fide-container .fide {
+  background: white;
+  padding: 20px 40px;
+  height: 160px;
+  width: 320px;
+  max-width: 320px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home .fide-container .fide #one {
+  font-weight: bold;
+}
+.home .fide-container .fide p {
+  color: #009246;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+.home .fide-container .fide #two {
+  font-size: 0.9rem;
+}
+.home .card-btn-container {
+  margin-top: 10px;
+}
+.home .card-btn-container .img1 {
+  display: flex;
+  justify-content: end;
+}
+.home .card-btn-container .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home .card-btn-container .img2 img {
+  transform: translate(-50px, -20px) rotate(30deg);
+}/*# sourceMappingURL=index.css.map */

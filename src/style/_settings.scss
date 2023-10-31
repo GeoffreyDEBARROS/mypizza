@@ -1,0 +1,39 @@
+$color1: #f6f6e1;
+$color2: #009246;
+$color3: #ce2b37;
+$color4: rgba(23, 22, 22, 0.908) ;
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Pridi&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: $color1;
+    width: 100vw;
+    font-family: 'Pridi', serif;
+    button {
+        width: 320px;
+        max-width: 320px;
+        height: 60px;
+        background: $color2;
+        border: none;
+        border-radius: 10px;
+        font-family: 'Merriweather', serif;
+        font-size: 1.5rem;
+        color: $color1;
+        box-shadow: rgba(0, 0, 0, 0.728) 5px 5px 5px;
+        transition: 0.2s;
+        &:hover {
+            cursor: pointer;
+            transform: scale(101%);
+            box-shadow: rgba(0, 0, 0, 0.728) 7px 7px 7px;
+        }
+        &:active {
+            transform: scale(98%);
+            box-shadow: rgba(0, 0, 0, 0.728) 2px 2px 2px;
+        }
+    }
+}
