@@ -30,7 +30,7 @@
         .right {
             display: flex;
             flex-direction: column;
-            align-items: end;
+            align-items: flex-end;
             justify-content: center;
             font-size: 1.1rem;
             font-weight: bold;
@@ -81,7 +81,7 @@
         margin-top: 10px;
         .img1 {
             display: flex;
-            justify-content: end;
+            justify-content: flex-end;
         }
         .btn {
             display: flex;

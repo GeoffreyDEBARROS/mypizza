@@ -62,7 +62,7 @@ body button:active {
 .home .intro .right {
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: flex-end;
   justify-content: center;
   font-size: 1.1rem;
   font-weight: bold;
@@ -113,7 +113,7 @@ body button:active {
 }
 .home .card-btn-container .img1 {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .home .card-btn-container .btn {
   display: flex;
