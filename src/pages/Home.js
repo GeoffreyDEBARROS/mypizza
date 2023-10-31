@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -41,6 +42,7 @@ const Home = () => {
           <img src="./img/1chili.png" alt="Poivron" width="220px" />
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

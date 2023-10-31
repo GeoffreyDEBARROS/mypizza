@@ -14,6 +14,9 @@ body {
     background: $color1;
     width: 100vw;
     font-family: 'Pridi', serif;
+    ul {
+        list-style-type: none;
+    }
     button {
         width: 320px;
         max-width: 320px;
@@ -35,5 +38,9 @@ body {
             transform: scale(98%);
             box-shadow: rgba(0, 0, 0, 0.728) 2px 2px 2px;
         }
+    }
+    h2 {
+        color: $color3;
+        font-size: 1.8rem;
     }
 }
