@@ -14,6 +14,24 @@ body {
     background: $color1;
     width: 100vw;
     font-family: 'Pridi', serif;
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        font-family: 'Merriweather', serif;
+        font-size: 1.2rem;
+        #my {
+            color: $color2;
+            padding-right: 7px;
+        }
+        #pizza {
+            color: $color4;
+        }
+        #fr {
+            color: $color3;
+        }
+    }
     ul {
         list-style-type: none;
     }

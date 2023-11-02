@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -36,7 +37,9 @@ const Home = () => {
           <img src="./img/3poivrons.png" alt="Poivrons" width="200px" />
         </div>
         <div className="btn">
-          <button>La carte</button>
+          <NavLink to="/carte">
+            <button>La carte</button>
+          </NavLink>
         </div>
         <div className="img2">
           <img src="./img/1chili.png" alt="Poivron" width="220px" />
