@@ -9,11 +9,16 @@ $color4: rgba(23, 22, 22, 0.908) ;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+}
+html, body {
+    scroll-behavior: smooth;
 }
 body {
     background: $color1;
     width: 100vw;
     font-family: 'Pridi', serif;
+    
     .title {
         display: flex;
         align-items: center;
